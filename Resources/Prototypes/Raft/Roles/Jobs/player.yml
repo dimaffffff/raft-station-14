@@ -1,0 +1,27 @@
+- type: job
+  id: Player
+  name: job-name-player
+  description: job-description-player
+  playTimeTracker: JobPlayer
+  - !type:TraitsRequirement
+    inverted: true
+    traits:
+    - Muted
+  startingGear: PlayerGear
+  canBeAntag: false
+
+- type: startingGear
+  id: PlayerGear
+  equipment:
+    jumpsuit: UniformShortsRedWithTop
+
+- type: chameleonOutfit
+  id: PlayerChameleonOutfit
+  job: Player
+  hasMindShield: false
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+    eyes: ClothingEyesGlassesSecurity
+    mask: ClothingMaskGasSecurity
+    neck: Dinkystar
+    gloves: ClothingHandsGlovesColorBlack

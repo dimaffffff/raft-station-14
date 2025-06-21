@@ -1,0 +1,11 @@
+- type: entity
+  id: SpawnPointPlayer
+  parent: SpawnPointJobBase
+  name: player
+  components:
+  - type: SpawnPoint
+    job_id: Player
+  - type: Sprite
+    layers:
+    - state: green
+    - state: player
