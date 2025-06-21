@@ -65,6 +65,17 @@
       loop: true
       volume: -10
 
+- type: weather
+  id: LightRain
+  sprite:
+    sprite: /Textures/Effects/weather.rsi
+    state: lightrain
+  sound:
+    collection: Rain
+    params:
+      loop: false
+      volume: 0
+
 - type: soundCollection
   id: Rain
   files:
