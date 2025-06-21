@@ -37645,6 +37645,18 @@ entities:
     - type: Transform
       pos: -17.5,17.5
       parent: 2
+- proto: SpawnPointPlayer
+  entities:
+  - uid: 4149
+    components:
+    - type: Transform
+      pos: -9.5,12.5
+      parent: 2
+  - uid: 4150
+    components:
+    - type: Transform
+      pos: -7.5,12.5
+      parent: 2
 - proto: SpawnPointSecurityOfficer
   entities:
   - uid: 4149
